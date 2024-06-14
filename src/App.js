@@ -1,8 +1,8 @@
 import React from "react";
-import { Route, Routes, useNavigate } from "react-router-dom";
+import { Route, Routes } from "react-router-dom";
 import "./App.css";
 import Home from "./pages/Home";
-import { useDispatch, useSelector } from "react-redux";
+import { useSelector } from "react-redux";
 
 // Component
 import NavBar from "./components/common/NavBar";
@@ -34,8 +34,6 @@ import ViewCourse from "./pages/ViewCourse";
 import CourseDetails from "./pages/CourseDetails";
 
 function App() {
-  const dispatch = useDispatch();
-  const navigate = useNavigate();
   const { user } = useSelector((state) => state.profile);
 
   return (

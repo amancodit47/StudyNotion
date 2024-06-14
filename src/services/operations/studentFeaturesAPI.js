@@ -1,9 +1,10 @@
 import { toast } from "react-hot-toast";
 import { studentEndPoints } from "../apis";
 import { apiConnector } from "../apiConnector";
-import rzpLogo from "../../assets/Logo/rzp_logo.png";
+// import rzpLogo from "../../assets/Logo/rzp_logo.png";
 import { setPaymentLoading } from "../../slices/courseSlice";
 import { resetCart } from "../../slices/cartSlice";
+import QuarkNewLogo from "../../assets/Logo/QuarkNewLogo.png";
 
 const {
   COURSE_PAYMENT_API,
@@ -63,7 +64,7 @@ export async function buyCourse(
       order_id: orderResponse.data.message.id,
       name: "Quark",
       description: "Thank you for purchasing the Course",
-      image: rzpLogo,
+      image: QuarkNewLogo,
       prefill: {
         name: `${userDetails.firstname}`,
         email: userDetails.email,

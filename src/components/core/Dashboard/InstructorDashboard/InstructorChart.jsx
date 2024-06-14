@@ -54,7 +54,7 @@ export default function InstructorChart({ courses }) {
         <button
           onClick={() => setCurrChart("students")}
           className={`rounded-sm p-1 px-3 transition-all duration-200 ${
-            currChart == "students"
+            currChart === "students"
               ? "bg-richblack-700 text-yellow-50"
               : "text-yellow-400"
           }`}

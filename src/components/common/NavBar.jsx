@@ -71,7 +71,7 @@ const NavBar = () => {
                     <p>{link.title}</p>
                     <IoIosArrowDown />
                     <div className="invisible absolute left-[50%] top-[50%] translate-x-[-50%] translate-y-[25%] flex flex-col rounded-md bg-richblack-5 p-4 text-richblack-900  opacity-0 transition-all duration-200 group-hover:visible group-hover:opacity-100 lg:w-[300px] z-[1000]">
-                      <div className="absolute left-[56%] top-0 h-6 w-8 rotate-45 rounded bg-richblack-5 -z-10 "></div>
+                      <div className="absolute left-[56%] top-0 h-6 w-8 rotate-45 rounded bg-richblack-5 -z-10"></div>
                       {loading ? (
                         <p className="text-center">Loading...</p>
                       ) : subLinks?.length ? (
