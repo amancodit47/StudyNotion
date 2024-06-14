@@ -1,8 +1,8 @@
 
 const BASE_URL = "https://quark-hmzt.onrender.com/api/v1";
 
-// AUTH ENDPOINTS
 
+// AUTH ENDPOINTS
 export const endpoints = {
   SENDOTP_API: BASE_URL + "/auth/sendotp",
   SIGNUP_API: BASE_URL + "/auth/signup",
