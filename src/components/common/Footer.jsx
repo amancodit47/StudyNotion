@@ -27,7 +27,8 @@ const Footer = () => {
           <div className="lg:w-[50%] flex flex-wrap flex-row justify-between lg:border-r lg:border-richblack-700 pl-3 lg:pr-3 gap-3">
             <div className="w-[30%] flex flex-col gap-3 lg:w-[30%] mb-7 lg:pl-0 ">
               <img
-                src="https://res.cloudinary.com/dutwikfzh/image/upload/v1712830100/Quark/Screenshot_2024-04-11_151320-removebg-preview_s6hkk8.png"
+                src="https://res.cloudinary.com/dhr4sxqq1/image/upload/v1736419739/Logo-Full-Light_kg2x5v.png"
+                // src="https://res.cloudinary.com/dutwikfzh/image/upload/v1712830100/Quark/Screenshot_2024-04-11_151320-removebg-preview_s6hkk8.png"
                 alt=""
                 className="object-contain h-20 w-36"
               />
@@ -176,7 +177,7 @@ const Footer = () => {
             </div>
           </div>
 
-          <div className="text-center">Developed by Ritik</div>
+          <div className="text-center">Made with ❤️ By Aman Kumar © 2024</div>
         </div>
       </div>
     </div>

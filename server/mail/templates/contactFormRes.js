@@ -75,7 +75,7 @@ exports.contactUsEmail = (
     <body>
         <div class="container">
             <a href="http://localhost:3000/"><img class="logo"
-                    src="https://res.cloudinary.com/dutwikfzh/image/upload/v1712829462/Quark/Screenshot_2024-04-11_152428_eswxau.png" alt="Quark Logo"></a>
+                    src="https://res.cloudinary.com/dhr4sxqq1/image/upload/v1736422033/rzp_logo_voy9hq.png"></a>
             <div class="message">Contact Form Confirmation</div>
             <div class="body">
                 <p>Dear ${firstname} ${lastname},</p>
@@ -89,7 +89,7 @@ exports.contactUsEmail = (
                 <p>We appreciate your interest and will get back to you shortly. </p>
             </div>
             <div class="support">If you have any further questions or need immediate assistance, please feel free to reach
-                out to us at <a href="mailto:ritikrog90@gmail.com">ritikrog90@gmail.com</a>. We are here to help!</div>
+                out to us at <a href="mailto:akclot38822@gmail.com">akclot38822@gmail.com</a>. We are here to help!</div>
         </div>
     </body>
     

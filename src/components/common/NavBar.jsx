@@ -47,7 +47,7 @@ const NavBar = () => {
       <div className="flex w-11/12 max-w-maxContent items-center justify-between">
         <Link to="/">
           <img
-            src="https://res.cloudinary.com/dutwikfzh/image/upload/v1712830100/Quark/Screenshot_2024-04-11_151320-removebg-preview_s6hkk8.png"
+            src="https://res.cloudinary.com/dhr4sxqq1/image/upload/v1736419739/Logo-Full-Light_kg2x5v.png"
             height={14}
             width={150}
             alt="Logo"
